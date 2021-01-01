@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: lightgray !important;
+}
+p {
+  margin: 0;
+  font-family: Roboto;
+}
+
+.color-white {
+  color: #fff !important;
+}
+.color-black {
+  color: #000 !important;
+}
+.color-grey {
+  color: gray !important;
+}
+.font-22 {
+  font-size: 22px !important;
+}
+.font-21 {
+  font-size: 20px !important;
+}
+.font-20 {
+  font-size: 20px !important;
+}
+.font-13 {
+  font-size: 13px !important;
+}
+.font-14 {
+  font-size: 14px !important;
+}
+.font-15 {
+  font-size: 15px !important;
+}
+.font-18 {
+  font-size: 18px !important;
+}
+.font-16 {
+  font-size: 16px !important;
+}
+.font-12 {
+  font-size: 12px !important;
+}
+.font-11 {
+  font-size: 11px !important;
+}
+.font-10 {
+  font-size: 10px !important;
+}
+.font-9 {
+  font-size: 9px !important;
+}
+.font-8 {
+  font-size: 8px !important;
+}
+.space-bet {
+  justify-content: space-between;
+}
+.space-eve {
+  justify-content: space-evenly;
+}
+.space-aro {
+  justify-content: space-around;
+}
+.weight-200 {
+  font-weight: 200;
+}
+.weight-300 {
+  font-weight: 300;
+}
+.weight-400 {
+  font-weight: 400;
+}
+.weight-500 {
+  font-weight: 500;
+}
+.weight-600 {
+  font-weight: 600;
+}
+.weight-700 {
+  font-weight: 700;
+}
+.weight-800 {
+  font-weight: 800;
+}
+.err-msg {
+  font-size: 10px;
+  position: absolute;
+  color: red;
+}
+.cursor {
+  cursor: pointer;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.back-arrow {
+  background: darkcyan;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.text-ellipsis {
+  width: auto;
+  height: 20px;
+  height: auto;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.text-ellipsis:hover {
+  height: auto;
+  overflow: visible;
+  white-space: normal;
+}
+li {
+  list-style: none;
+}
+.snackbar-position {
+  width: 30%;
+  position: fixed;
+  z-index: 10009;
+  right: 25px;
+  top: 25px;
+}
+textarea:focus, 
+button:focus,
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+@media (max-width: 480px) {
+  .snackbar-position {
+    width: 90%;
+    position: fixed;
+    z-index: 10009;
+    right: 25px;
+    top: 25px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .snackbar-position {
+    width: 90%;
+    position: fixed;
+    z-index: 10009;
+    right: 25px;
+    top: 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .snackbar-position {
+    width: 40%;
+    position: fixed;
+    z-index: 10009;
+    right: 25px;
+    top: 25px;
+  }
+}
